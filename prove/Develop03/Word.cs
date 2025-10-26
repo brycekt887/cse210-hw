@@ -23,7 +23,7 @@ public class Word
     {
         if (_isHidden)
         {
-            return "_____"; // hidden word placeholder
+            return "_____"; // placeholder
         }
         else
         {

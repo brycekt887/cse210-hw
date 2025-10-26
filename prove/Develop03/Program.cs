@@ -13,7 +13,7 @@ class Program
             Console.Clear();
             Console.WriteLine(scripture.GetDisplayText());
             Console.WriteLine();
-            Console.Write("Press Enter to hide more words or type 'quit' to end: ");
+            Console.Write("Press Enter to hide more words or type the word 'quit' to end the program: ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "quit")
@@ -27,7 +27,7 @@ class Program
             {
                 Console.Clear();
                 Console.WriteLine(scripture.GetDisplayText());
-                Console.WriteLine("\nAll words are now hidden. Great job memorizing!");
+                Console.WriteLine("\nAll the words are now hidden. This is wnat you trained for!!!!!");
                 break;
             }
         }
