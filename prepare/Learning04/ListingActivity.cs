@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// This activity helps the user list things that are positive in their life.
+// helps the user list things that are positive in their life.
 public class ListingActivity : Activity
 {
     private List<string> _prompts = new List<string>

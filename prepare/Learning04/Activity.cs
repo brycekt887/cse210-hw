@@ -1,8 +1,7 @@
 using System;
 using System.Threading;
 
-// This is the base class for all activities.
-// It handles things like the name, description, duration, and the spinner animation.
+
 public class Activity
 {
     protected string _name;

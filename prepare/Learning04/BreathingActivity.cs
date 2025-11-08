@@ -1,6 +1,6 @@
 using System;
 
-// This activity helps the user calm down and focus on breathing.
+// helps the user calm down and focus on breathing.
 public class BreathingActivity : Activity
 {
     private int _inhaleTime = 4;

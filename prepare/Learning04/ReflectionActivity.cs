@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-
-// This activity helps the user think deeply about good experiences.
+// helps the user think deeply about good experiences.
 public class ReflectionActivity : Activity
 {
     private List<string> _prompts = new List<string>

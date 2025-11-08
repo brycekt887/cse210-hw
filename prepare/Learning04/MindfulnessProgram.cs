@@ -1,6 +1,6 @@
 using System;
 
-// Main program that runs all mindfulness activities
+// Main program that runs eveything
 public class MindfulnessProgram
 {
     public void DisplayMenu()
