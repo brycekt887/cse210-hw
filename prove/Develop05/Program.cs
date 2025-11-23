@@ -1,14 +1,10 @@
 using System;
 
-namespace Develop05
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-
-        static void Main(string[] args)
-        {
-            GoalManager manager = new GoalManager();
-            manager.Start();
-        }
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
