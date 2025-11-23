@@ -1,9 +1,14 @@
 using System;
 
-class Program
+namespace Develop05
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop05 World!");
+
+        static void Main(string[] args)
+        {
+            GoalManager manager = new GoalManager();
+            manager.Start();
+        }
     }
 }
