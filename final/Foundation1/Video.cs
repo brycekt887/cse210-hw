@@ -3,38 +3,36 @@ using System.Collections.Generic;
 
 public class Video
 {
-    // matches: title, author, length, comments
-    private string title;
-    private string author;
-    private int length;
-    private List<Comment> comments = new List<Comment>();
+     private string _title;
+    private string _author;
+    private int _length;
+    private List<Comment> _comments = new List<Comment>();
 
     public Video(string title, string author, int length)
     {
-        this.title = title;
-        this.author = author;
-        this.length = length;
+        _title = title;
+        _author = author;
+        _length = length;
     }
 
     public void AddComment(Comment c)
     {
-        comments.Add(c);
+        _comments.Add(c);
     }
 
     public int GetCommentCount()
     {
-        return comments.Count;
+        return _comments.Count;
     }
 
     public void DisplayVideo()
     {
-        Console.WriteLine("---- Video ----");
-        Console.WriteLine("Title: " + title);
-        Console.WriteLine("Author: " + author);
-        Console.WriteLine("Length: " + length + " seconds");
-        Console.WriteLine("Number of comments: " + GetCommentCount());
+        Console.WriteLine("Title: " + _title);
+        Console.WriteLine("Author: " + _author);
+        Console.WriteLine("Length: " + _length + " seconds");
+        Console.WriteLine("Comments: " + GetCommentCount());
 
-        foreach (Comment c in comments)
+        foreach (Comment c in _comments)
         {
             c.DisplayComment();
         }
@@ -42,3 +40,4 @@ public class Video
         Console.WriteLine();
     }
 }
+
