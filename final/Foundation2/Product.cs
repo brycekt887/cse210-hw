@@ -1,7 +1,5 @@
 public class Product
 {
-    // matches: name, id, price, quantity
-
     private string _name;
     private string _id;
     private double _price;
@@ -18,5 +16,15 @@ public class Product
     public double GetTotalCost()
     {
         return _price * _quantity;
+    }
+
+    public string GetName()
+    {
+        return _name;
+    }
+
+    public string GetId()
+    {
+        return _id;
     }
 }
